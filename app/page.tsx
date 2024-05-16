@@ -18,11 +18,11 @@ export default function Page() {
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
         <div className={styles.shape} />
           <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>Welcome to Acme.</strong> This is the example for the{' '}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js Learn Course
-            </a>
-            , brought to you by Vercel.
+             {' '}
+          
+             Таны санхүүгийн асуудлыг хормын дотор шийднэ. Тиймээ энэ бол MEHTs.
+            
+            
           </p>
           <Link
             href="/login"
@@ -31,12 +31,12 @@ export default function Page() {
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
         </div>
-        <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
+        <div className="flex items-center justify-center p-6 md:w-3/5 md:px-20 md:py-8">
           {/* Add Hero Images Here */}
           <Image
-        src="/hero-desktop.png"
-        width={1000}
-        height={760}
+        src="/money.png"
+        width={700}
+        height={500}
         className="hidden md:block"
         alt="Screenshots of the dashboard project showing desktop version"
       />
