@@ -20,8 +20,8 @@ const users = [
 const customers = [
   {
     id: '3958dc9e-712f-4377-85e9-fec4b6a6442a',
-    name: 'Khuslen Batkhuyag',
-    email: 'huslenb521@gmail.com',
+    name: 'Delba de Oliveira',
+    email: 'delba@oliveira.com',
     image_url: '/customers/delba-de-oliveira.png',
   },
   {
